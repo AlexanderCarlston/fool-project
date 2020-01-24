@@ -1,4 +1,13 @@
-# Fool.com Front End Developer Test Project
+# Fool Project
+
+<!-- TOC -->
+
+- [Fool Navigation](#fool-project)
+    - [Requirements](#requirements)
+
+<!-- /TOC -->
+
+# Requirements
 
 Hello potential Fool!  We’d love to give you the chance to show off your skills!  We want to see how you would create and design a keyword "hub page" for Fool.com.
 Along with your technical skills we're hoping to gain better insight into how you communicate with team members, ask for help when necessary, take instruction, and solve problems.

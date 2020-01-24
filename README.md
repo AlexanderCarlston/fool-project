@@ -90,10 +90,10 @@ Open the project via http://127.0.0.1:8000/stock-market-news in your web browser
 
 > Can you explain WCAG’s principles in plain English?
 
-** Your content is perceivable. Everything can be perceived in more than one way. If someone cannot see, written content can be read by a screen reader. If someone cannot hear, audio content has captions.
+## Your content is perceivable. Everything can be perceived in more than one way. If someone cannot see, written content can be read by a screen reader. If someone cannot hear, audio content has captions.
 
-** Your content is operable. Everything can be operated in more than one way. If someone cannot use a mouse or touchpad, they can navigate by keyboard or by voice command software. If someone moves or reads slowly, they can request additional time to complete a task.
+## Your content is operable. Everything can be operated in more than one way. If someone cannot use a mouse or touchpad, they can navigate by keyboard or by voice command software. If someone moves or reads slowly, they can request additional time to complete a task.
 
-** Your content is understandable. Everything can be understood. If someone clicks on a navigation menu, it behaves like a navigation menu. If a button says, “Read More” it does what you expect it to do. If an error is made on a form, an error message points out the location of the error and suggests how to fix it.
+## Your content is understandable. Everything can be understood. If someone clicks on a navigation menu, it behaves like a navigation menu. If a button says, “Read More” it does what you expect it to do. If an error is made on a form, an error message points out the location of the error and suggests how to fix it.
 
-** Your content is robust. Everything can roll up to the newest and shiniest hardware and not break.
+## Your content is robust. Everything can roll up to the newest and shiniest hardware and not break.

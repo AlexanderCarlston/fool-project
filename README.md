@@ -4,7 +4,7 @@
 
 - [Fool Navigation](#fool-project)
     - [Requirements](#requirements)
-    - [WCAG AA 2.0](WCAG-AA-2.0)
+    - [WCAG AA 2.0](#wcag-aa-2.0)
 <!-- /TOC -->
 
 # Requirements

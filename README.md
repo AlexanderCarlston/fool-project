@@ -4,7 +4,7 @@
 
 - [Fool Navigation](#fool-project)
     - [Requirements](#requirements)
-    - [WCAG AA 2.0](#wcag-aa-2.0)
+    - [WCAG AA 2.0](#wcag)
 <!-- /TOC -->
 
 # Requirements
@@ -86,6 +86,6 @@ Open the project via http://127.0.0.1:8000/stock-market-news in your web browser
 
 
 
-# WCAG AA 2.0
+# WCAG
 
 > Example

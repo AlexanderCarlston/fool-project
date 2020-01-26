@@ -5,6 +5,8 @@
 - [Fool Navigation](#fool-project)
     - [Requirements](#requirements)
     - [WCAG AA 2.0](#wcag)
+    - [SEO](#seo)
+
 <!-- /TOC -->
 
 # Requirements
@@ -101,3 +103,19 @@ Everything can be understood. If someone clicks on a navigation menu, it behaves
 
 ### Your content is robust. <br>
 Everything can roll up to the newest and shiniest hardware and not break.
+
+# SEO
+
+> I think search engine optomization is a big essential of the business need. So these are some basics I'm going to try to adhere to.
+
+* Using the keyword in the title of the page<br>
+
+* Using the keyword in the URL (e.g., online-petstore.com/parakeets/snacks/gourmet)<br>
+
+* Using the keyword, and variations (e.g., "gourmet parakeet snacks"), throughout the page copy<br>
+
+* Using the keyword in the meta tags, especially the meta description<br>
+
+* Using the keyword in any image file paths and in the images' alt text<br>
+
+* Using the keyword as the anchor text in links back to the page from elsewhere on the site<br>

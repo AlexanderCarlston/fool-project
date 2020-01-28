@@ -1,0 +1,14 @@
+// Define your variable overrides here
+
+$primary: white;
+// Bootstrap and BootstrapVue SCSS files
+@import '~bootstrap/scss/bootstrap.scss';
+@import '~bootstrap-vue/src/index.scss';
+
+// General style overrides and custom classess
+
+.logo {
+  display: block;
+  height: 100%;
+  padding: 0 0 0 20px;
+}

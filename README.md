@@ -6,7 +6,8 @@
     - [Requirements](#requirements)
     - [WCAG AA 2.0](#wcag)
     - [SEO](#seo)
-
+    - [Business Requirements](#business-requirements)
+    - [Technical Requirements](technical-requirements)
 <!-- /TOC -->
 
 # Requirements
@@ -119,3 +120,20 @@ Everything can roll up to the newest and shiniest hardware and not break.
 * Using the keyword in any image file paths and in the images' alt text<br>
 
 * Using the keyword as the anchor text in links back to the page from elsewhere on the site<br>
+
+# Business Requirements
+- [ ] The page should clearly display information the user might be seeking when searching the term in a search engine.
+- [ ] A clear design to highlight information so users know the topic of the articles on the page along with any other relevant information on the topic
+- [ ] Displays the top 5 most recent articles on the topic (http://127.0.0.1:8000/api/articles)
+- [ ] Users should be able filter articles by article bureau or by article instruments
+  - If you would like to display any instrument data you can access API data at (http://127.0.0.1:8000/api/instruments)
+- [ ] Display "join stock advisor" call to action (/templates/join_sa_cta.html) so users are encouraged to sign up for our flagship service, Stock Advisor
+
+
+
+# Technical Requirements
+- [ ] Needs to perform quickly on desktop and mobile.
+- [ ] Feel free to use any front-end frameworks or tools you would like to enhance the experience to design. (Bootstrap, tailwind, vue, etc)
+- [ ] Responsive for desktop (including large monitors) and mobile
+- [ ] Ideally works in IE11, as well as the latest Safari, Edge, Firefox, and Chrome
+- [ ] Code considers non-happy-paths

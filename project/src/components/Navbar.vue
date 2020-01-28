@@ -12,7 +12,7 @@
 
     <b-collapse id="nav-collapse" is-nav>
       <b-navbar-nav>
-        <b-nav-item href="#">Stock News</b-nav-item>
+        
       </b-navbar-nav>
 
       <!-- Right aligned nav items -->

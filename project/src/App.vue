@@ -1,10 +1,7 @@
 <template>
   <div id="app">
+    <Navbar></Navbar>
 
-      <Navbar></Navbar>
-      <h1>Django VueJs</h1>
-
-      
     <router-view />
   </div>
 </template>
@@ -20,5 +17,4 @@ export default {
 </script>
 
 <style lang="scss">
-
 </style>

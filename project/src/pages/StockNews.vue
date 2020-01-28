@@ -1,5 +1,7 @@
 <template>
-  <h1></h1>
+  <b-container>
+
+  </b-container>
 </template>
 
 <script>

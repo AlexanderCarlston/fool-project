@@ -8,7 +8,7 @@
     <b-row cols="12">
       <b-col>
         <b-card title="Latest Headlines" tag="article" class="mb-2">
-          <Article v-for="article of articles" :key="article.id"></Article>
+          <Article v-for="article of articles" :key="article.uuid" :article="article"></Article>
         </b-card>
       </b-col>
     </b-row>

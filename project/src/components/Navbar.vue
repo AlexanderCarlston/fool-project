@@ -1,6 +1,6 @@
 <template>
   <b-navbar toggleable="lg" variant="primary">
-    <b-navbar-brand href="#">
+    <b-navbar-brand href="https://www.fool.com">
       <img 
       src="../assets/fool-logo.png" 
       class="d-inline-block align-top logo" 

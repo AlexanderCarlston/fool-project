@@ -1,13 +1,13 @@
 <template>
   <b-card
-    title="Stock Market News"
+    :title="article.headline"
     tag="article"
     img-alt="Card image"
     img-left
     class="mb-3 card-image"
     :img-src="encodeUrl(article.images[0].url)"
   >
-    <b-card-text>Some quick example text to build on the card and make up the bulk of the card's content.</b-card-text>
+    <b-card-text>Some quick example text to build on the card and make up the bulk of the card's content.Some quick example text to build on the card and make up the bulk of the card's content.</b-card-text>
   </b-card>
 </template>
 
@@ -24,5 +24,7 @@ export default {
 </script>
 
 <style scoped>
-
+h4 {
+  color: #369
+}
 </style>

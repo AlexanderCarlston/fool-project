@@ -9,10 +9,10 @@ export default new Router({
   routes: [
     {
       path: '/',
-      redirect: '/stock-news'
+      redirect: '/stock-market-news'
     },
     {
-      path: '/stock-news',
+      path: '/stock-market-news',
       name: 'home',
       component: StockNews
     },

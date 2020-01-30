@@ -1,14 +1,18 @@
 <template>
-  <b-card
-    :title="article.headline"
-    tag="article"
-    img-alt="Card image"
-    img-left
-    class="mb-3 card-image"
-    :img-src="encodeUrl(article.images[0].url)"
-  >
-    <b-card-text>Some quick example text to build on the card and make up the bulk of the card's content.Some quick example text to build on the card and make up the bulk of the card's content.</b-card-text>
-  </b-card>
+  <b-container class="article-container">
+    <b-row>
+      <b-col class="article-img" cols="4">
+        <b-img-lazy :src="encodeUrl(article.images[0].url)" alt="Image 1"></b-img-lazy>
+      </b-col>
+      <b-col cols="8">
+        <a :href="'https://www.fool.com' + article.path" target="_blank">
+          <h4>{{article.headline}}</h4>
+        </a>
+        <span class="story-date-author">{{ article.byline }}</span>
+        <b-card-text>{{article.promo}}</b-card-text>
+      </b-col>
+    </b-row>
+  </b-container>
 </template>
 
 <script>
@@ -17,14 +21,44 @@ export default {
   props: ["article"],
   methods: {
     encodeUrl: function(url) {
-      return `https://g.foolcdn.com/image/?url=${encodeURIComponent(url)}&w=479&h=281&op=resize`
-    }
+      return `https://g.foolcdn.com/image/?url=${encodeURIComponent(
+        url
+      )}&w=479&h=281&op=resize`;
+    },
   }
 };
 </script>
 
 <style scoped>
 h4 {
-  color: #369
+  color: #369;
+  margin-bottom: 0;
+}
+
+img {
+  max-width: 100%;
+  height: 100%;
+}
+
+.article-img {
+  padding-left: 0;
+}
+
+.article-container {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+h4:hover {
+  color: #0a2c3a !important;
+}
+
+.story-date-author {
+  font-size: 13px;
+  color: #666;
 }
 </style>

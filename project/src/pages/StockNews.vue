@@ -1,5 +1,5 @@
 <template>
-  <b-container>
+  <b-container class="container" fluid>
     <b-row cols="12">
       <b-col>
         <b-card tag="article" class="mb-2">
@@ -8,12 +8,12 @@
       </b-col>
     </b-row>
     <b-row>
-      <b-col cols="9">
+      <b-col lg="9">
         <b-card title="Latest Headlines" tag="article" class="mb-2">
           <Article v-for="article of articles" :key="article.uuid" :article="article"></Article>
         </b-card>
       </b-col>
-      <b-col>
+      <b-col class="padding-left-0">
         <InfoCard></InfoCard>
       </b-col>
     </b-row>
@@ -42,5 +42,18 @@ export default {
 </script>
 
 <style scoped>
+@media (max-width: 978px) {
+    .container {
+      padding:0;
+      margin:0;
+    }
 
+    body {
+      padding:0;
+    }
+}
+
+.padding-left-0 {
+  padding-left: 0;
+}
 </style>

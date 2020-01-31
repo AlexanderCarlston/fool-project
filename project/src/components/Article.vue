@@ -2,7 +2,7 @@
   <b-container class="article-container" fluid="md">
     <b-row>
       <b-col class="article-img" cols="3">
-        <b-img-lazy :src="encodeUrl(article.images[0].url)" alt="Article Image"></b-img-lazy>
+        <b-img-lazy class="img-fluid" :src="encodeUrl(article.images[0].url)" alt="Article Image"></b-img-lazy>
       </b-col>
       <b-col cols="9">
         <a :href="'https://www.fool.com' + article.path" target="_blank">

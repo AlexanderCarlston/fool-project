@@ -3,12 +3,60 @@
 <!-- TOC -->
 
 - [Fool Navigation](#fool-project)
+    - [Prerequisites](#prerequisites)
+    - [Setup Project](#setup-project)
     - [Requirements](#requirements)
     - [WCAG AA 2.0](#wcag)
     - [SEO](#seo)
     - [Business Requirements](#business-requirements)
     - [Technical Requirements](technical-requirements)
 <!-- /TOC -->
+
+# Prerequisites
+
+Before getting started you should have the following installed and running:
+
+- [X] Yarn - [instructions](https://yarnpkg.com/en/docs/install)
+- [X] Vue CLI 3 - [instructions](https://cli.vuejs.org/guide/installation.html)
+- [X] Python 3 - [instructions](https://wiki.python.org/moin/BeginnersGuide)
+- [X] Pipenv - [instructions](https://pipenv.readthedocs.io/en/latest/install/#installing-pipenv)
+
+# Setup Project
+
+```
+$ git clone https://github.com/AlexanderCarlston/fool-project.git
+$ cd fool-project
+```
+
+Setup
+```
+$ yarn install
+$ pipenv install --dev && pipenv shell
+$ python manage.py migrate
+```
+## Running Development Servers
+
+```
+$ python manage.py runserver
+```
+
+From another tab in the same directory:
+
+```
+$ yarn serve
+```
+
+The Vue application will be served from [`localhost:8080`](http://localhost:8080/) and the Django API
+and static files will be served from [`localhost:8000`](http://localhost:8000/).
+
+The dual dev server setup allows you to take advantage of
+webpack's development server with hot module replacement.
+Proxy config in [`vue.config.js`](/vue.config.js) is used to route the requests
+back to django's API on port 8000.
+
+If you would rather run a single dev server, you can run Django's
+development server only on `:8000`, but you have to build build the Vue app first
+and the page will not reload on changes.
 
 # Requirements
 

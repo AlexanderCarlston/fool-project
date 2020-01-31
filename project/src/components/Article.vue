@@ -2,7 +2,7 @@
   <b-container class="article-container">
     <b-row>
       <b-col class="article-img" cols="3">
-        <b-img-lazy :src="encodeUrl(article.images[0].url)" alt="Image 1"></b-img-lazy>
+        <b-img-lazy :src="encodeUrl(article.images[0].url)" alt="Article Image"></b-img-lazy>
       </b-col>
       <b-col cols="9">
         <a :href="'https://www.fool.com' + article.path" target="_blank">
@@ -42,6 +42,7 @@ img {
 
 .article-img {
   padding-left: 0;
+  max-height: 120px;
 }
 
 .article-container {

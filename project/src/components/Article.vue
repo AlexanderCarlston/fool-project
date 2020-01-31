@@ -1,5 +1,5 @@
 <template>
-  <b-container class="article-container">
+  <b-container class="article-container" fluid="md">
     <b-row>
       <b-col class="article-img" cols="3">
         <b-img-lazy :src="encodeUrl(article.images[0].url)" alt="Article Image"></b-img-lazy>

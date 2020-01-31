@@ -5,6 +5,7 @@
 - [Fool Navigation](#fool-project)
     - [Prerequisites](#prerequisites)
     - [Setup Project](#setup-project)
+    - [Project Structure](#project-structure)
     - [Requirements](#requirements)
     - [WCAG AA 2.0](#wcag)
     - [SEO](#seo)
@@ -57,6 +58,22 @@ back to django's API on port 8000.
 If you would rather run a single dev server, you can run Django's
 development server only on `:8000`, but you have to build build the Vue app first
 and the page will not reload on changes.
+
+
+
+# Project Structure
+
+
+| Location             |  Content                                   |
+|----------------------|--------------------------------------------|
+| `/backend`           | Django Project & Backend Config            |
+| `/backend/api`       | Django App (`/api`)                        |
+| `/src`               | Vue App .                                  |
+| `/src/main.js`       | JS Application Entry Point                 |
+| `/public/index.html` | Html Application Entry Point (`/`)         |
+| `/public/static`     | Static Assets                              |
+| `/dist/`             | Bundled Assets Output (generated at `yarn build`) |
+
 
 # Requirements
 

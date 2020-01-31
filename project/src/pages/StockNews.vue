@@ -2,14 +2,19 @@
   <b-container>
     <b-row cols="12">
       <b-col>
-        <b-card title="Stock Market News" tag="article" class="mb-2"></b-card>
+        <b-card tag="article" class="mb-2">
+          <h1>Stock Market News</h1>
+        </b-card>
       </b-col>
     </b-row>
-    <b-row cols="12">
-      <b-col>
+    <b-row>
+      <b-col cols="9">
         <b-card title="Latest Headlines" tag="article" class="mb-2">
           <Article v-for="article of articles" :key="article.uuid" :article="article"></Article>
         </b-card>
+      </b-col>
+      <b-col>
+        <h2>test</h2>
       </b-col>
     </b-row>
   </b-container>

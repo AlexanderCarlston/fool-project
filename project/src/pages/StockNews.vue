@@ -14,7 +14,7 @@
         </b-card>
       </b-col>
       <b-col>
-        <h2>test</h2>
+        <InfoCard></InfoCard>
       </b-col>
     </b-row>
   </b-container>
@@ -22,13 +22,15 @@
 
 <script>
 import Article from "../components/Article";
+import InfoCard from"../components/InfoCard";
 import { mapState } from "vuex";
 
 export default {
   name: "VueDemo",
   props: {},
   components: {
-    Article
+    Article,
+    InfoCard
   },
   computed: mapState({
     articles: state => state.articles.articles
